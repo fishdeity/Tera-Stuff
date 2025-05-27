@@ -14,6 +14,18 @@
 		</actions>
 	</abnormality>
 	
+	<!-- Internal Wounds -->
+	<abnormality active="true" ingame="true" trigger="Added" target="Boss">
+		<abnormalities>
+			<abnormality>10153141</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<text_to_speech text="Rythmic Blows" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="+3"/>
+			</notify>
+		</actions>
+	</abnormality>
+	
 	<!-- Priest boosts -->
 	<abnormality active="true" priority="8" ingame="true" trigger="Added" ignore_classes="Priest,Mystic" target="Self">
 		<abnormalities>
@@ -129,7 +141,7 @@
 		</abnormalities>
 		<actions>
 			<notify>
-				<text_to_speech text="{abnormality_name} ON" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
+				<text_to_speech text="ON" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
 			</notify>
 		</actions>
 	</abnormality>
@@ -153,7 +165,7 @@
 		</abnormalities>
 		<actions>
 			<notify>
-				<text_to_speech text="{abnormality_name} OFF" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="+2"/>
+				<text_to_speech text="OFF" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="+2"/>
 			</notify>
 		</actions>
 	</abnormality>
@@ -185,7 +197,7 @@
 	</abnormality>
 	
 	<!-- Crystal bind check for yourself -->
-	<abnormality ingame="true" priority="8" remaining_seconds_before_trigger="1000" rewarn_timeout_seconds="5" trigger="MissingDuringFight" target="Self">
+	<abnormality ingame="false" priority="8" remaining_seconds_before_trigger="1000" rewarn_timeout_seconds="5" trigger="MissingDuringFight" target="Self">
 		<abnormalities>
 			<abnormality>CrystalBind</abnormality>
 			<abnormality>CCrystalBind</abnormality>
@@ -199,7 +211,7 @@
 	</abnormality>
 	
 	<!-- Crystal bind check for your party members -->
-	<abnormality ingame="true" priority="0" remaining_seconds_before_trigger="400" rewarn_timeout_seconds="10" trigger="MissingDuringFight" target="PartySelfExcluded">
+	<abnormality ingame="false" priority="0" remaining_seconds_before_trigger="400" rewarn_timeout_seconds="10" trigger="MissingDuringFight" target="PartySelfExcluded">
 		<abnormalities>
 			<abnormality>CrystalBind</abnormality>
 			<abnormality>CCrystalBind</abnormality>
@@ -212,7 +224,7 @@
 	</abnormality>
 	
 	<!-- Everful Nostrum for yourself -->
-	<abnormality ingame="true" priority="7" remaining_seconds_before_trigger="20" rewarn_timeout_seconds="3" trigger="MissingDuringFight" target="Self">
+	<abnormality ingame="false" priority="7" remaining_seconds_before_trigger="20" rewarn_timeout_seconds="3" trigger="MissingDuringFight" target="Self">
 		<abnormalities>
 			<abnormality>4031</abnormality>
 			<abnormality>4030</abnormality>
@@ -224,16 +236,17 @@
 			<abnormality>4041</abnormality>
 			<abnormality>4042</abnormality>
 			<abnormality>4043</abnormality>
+			<abnormality>900006</abnormality>
 		</abnormalities>
 		<actions>
 			<notify>
-				<text_to_speech text="Nostrum" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="30" rate="0"/>
+				<text_to_speech text="Nostrum" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="0" rate="0"/>
 			</notify>
 		</actions>
 	</abnormality>
 	
 	<!-- Everful Nostrum for your party members -->
-	<abnormality ingame="true" priority="4" remaining_seconds_before_trigger="20" rewarn_timeout_seconds="40" trigger="MissingDuringFight" target="PartySelfExcluded">
+	<abnormality ingame="false" priority="4" remaining_seconds_before_trigger="20" rewarn_timeout_seconds="40" trigger="MissingDuringFight" target="PartySelfExcluded">
 		<abnormalities>
 			<abnormality>4031</abnormality>
 			<abnormality>4030</abnormality>
@@ -254,7 +267,7 @@
 	</abnormality>
 
 	<!-- Noctenium for yourself -->
-	<abnormality active="false" ingame="true" remaining_seconds_before_trigger="15" rewarn_timeout_seconds="3" trigger="MissingDuringFight" target="Self" priority="2">
+	<abnormality active="false" ingame="false" remaining_seconds_before_trigger="15" rewarn_timeout_seconds="3" trigger="MissingDuringFight" target="Self" priority="2">
 		<abnormalities>
 			<abnormality>920</abnormality>
 			<abnormality>921</abnormality>
@@ -289,7 +302,7 @@
 	</abnormality>
 
 	<!-- Food for yourself -->
-	<abnormality ingame="true" remaining_seconds_before_trigger="30" rewarn_timeout_seconds="3" trigger="Ending" target="Self" priority="1">
+	<abnormality ingame="false" remaining_seconds_before_trigger="30" rewarn_timeout_seconds="3" trigger="Ending" target="Self" priority="1">
 		<abnormalities>
 			<abnormality>70221</abnormality>
 			<abnormality>70211</abnormality>

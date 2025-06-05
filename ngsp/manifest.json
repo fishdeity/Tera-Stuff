@@ -1,19 +1,19 @@
 {
     "files": {
         "cache/!Delete cache.bat": "c1eb6ba134d551f0db57023538fd4133479e922d42b08ec6892c51571ae9b87b",
-        "data/emu/100/baseData.res": "76f394b2329e772593f44dede9bb44bee3db39b4d0cf65d95bb5102109416232",
-        "data/emu/100/battleNotifications.res": "cf3c845c117d70e1ab33172d95144fdf2b78c33961e7d6e49b03173433af5fd1",
-        "data/emu/100/denylistData.res": "f627d745c906d877f9c771b976de6e7ad351b861b62b68af7d63921aa9997859",
-        "data/emu/100/effects-override.res": "18bd9ce2bf2618d685363f295671db542e39b41c869061fab0c6dc603fddc15a",
-        "data/emu/100/effects.res": "ed7f5a35cd676ba9c663f81714752e39af396058348968cc4b1bb0a85f6882df",
-        "data/emu/100/items-override.res": "58688001a2bf8962cb7cd1516a995055fac513257548341f3224f1f3e19e91aa",
-        "data/emu/100/items.res": "92f589bf003d98ff8b1d37be7e7b431fb6f55f12e59e2262d5e2a10840fa9b39",
+        "data/emu/100/baseData.res": "d8bb135e1d02fd7cb58df71f180fa37598085644ba64e2fb6c2726cd2f382030",
+        "data/emu/100/battleNotifications.res": "dfba6ff6445385566cb60dae315f3f3f8a04c990cc8b465bab99c77bd17f738b",
+        "data/emu/100/denylistData.res": "eff9d66d9b786cdd4913f4b48f997ffa78f931e41250de036981d8b01366005d",
+        "data/emu/100/effects-override.res": "20698000a26a08866ccfb85a9fe303b6516c4a8bf0bf7990ffec634b314c883f",
+        "data/emu/100/effects.res": "f54faeb2f9a93fc9e2e135a02dd86cb1cf0c8056d75d47a97432a57f684b9828",
+        "data/emu/100/items-override.res": "cb6ae8576cd09d15923beb5ed43b01f6fe642f5535db363d5f345088bea8b7dd",
+        "data/emu/100/items.res": "8c62dc7098a580adc6997f1971568e2db062ed3921074f968edcf51fb369d040",
         "data/emu/100/movements-tba.res": "e8dfa55ec4d16e250a807dd4299b30df1963dc95cfb282e0baa97d7ac92cb8a2",
-        "data/emu/100/movements.res": "0e8e10a3ddbd92a2355ddde4dee2996341fcdc6f44157205a7053f06f120c98f",
+        "data/emu/100/movements.res": "0d8eafb2854e2b484a2d650ab8cb9942d8c20ee936a17e855380a302d4172c3d",
         "data/emu/100/skills-override-tba.res": "e8dfa55ec4d16e250a807dd4299b30df1963dc95cfb282e0baa97d7ac92cb8a2",
-        "data/emu/100/skills-override.res": "cb2264fcf3217cc2365c3dff4c0a04188b5546c6c97cb899b0a134dd73b70738",
+        "data/emu/100/skills-override.res": "258028f20ff6f4b6ffabe770b50f947c3ff511f20186ed9d8028bc0845340d15",
         "data/emu/100/skills-tba.res": "e8dfa55ec4d16e250a807dd4299b30df1963dc95cfb282e0baa97d7ac92cb8a2",
-        "data/emu/100/skills.res": "69c5374383644c171bf28dce7287ecd55ee9c97657aa29a4a46fd3aef700462b",
+        "data/emu/100/skills.res": "f1b27c06d928210122ac12e47587d47fde21441b98bcc4b8a2e728d9ca856919",
         "data/internal/definitions.js": "4177ebb0e7e566f3bc0b948bc19278679f71395e72a1b2127aabff2c44f9618b",
         "data/internal/settingsData.json": "8aa234bda49e15ebbf8953c0a15c6b93f9aa50aaece6521e098ef6b17cf8b089",
         "data/internal/settingsSchema.js": "04609526477cf33adb767ce2380861cf12f0ec1dbcaff43d3da4ac4749a526ec",
@@ -42,7 +42,7 @@
         "lib/submodules/projectiles.js": "c39c6a014c846d1e2c46494b6f7519f7171d251c8203415b82623c5481595015",
         "lib/utils.js": "4f569052997eaa9fbc94b056dd7ca0025d28073c61140d3b8008e4276d6ad5e7",
         "logs/!Delete logs.bat": "2424764710fcf198589ebfa69aa954882f8c1fd668f4f490b3a4e88e76bd6910",
-        "module.json": "f22a342e0c74c878cdd048292c9d33ccf72c47e2b6392b76aca641b8b838639b",
+        "module.json": "213913b1762f0c866d0c3c640672c73b29847d07979f342cc693a83b18a5069a",
         "node_modules/compare-versions/index.js": "a367dbf2e9d97ce452e084773d00e7a8ed6f709c6f09d8ef1e4c29a9c5c423d3",
         "node_modules/compare-versions/package.json": "2c81a3501c3e14b13492f616cdcf3551d57eb4406fd6f6c576d8caeca8db4080",
         "node_modules/deepmerge/dist/cjs.js": "66507d864c0071d88aafde0aa013ff28556b7baf0ab8aa377d572d0c91bb8de0",
@@ -95,7 +95,7 @@
         },
         "settings/emulation-tera.js": {
             "overwrite": false,
-            "hash": "95f5dfade99d7ef540f50b5c234ea1970b90fbe8068107a640d26404e3a70b76"
+            "hash": "78c71d7ec29b730359201e552839c0b32b6fd0343588cef36abf9c2e34c97efb"
         },
         "settings/settings.json": {
             "overwrite": false,

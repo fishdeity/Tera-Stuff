@@ -147,7 +147,6 @@ module.exports = {
 		"35": true, // Unleash: Sinister
 		"36": true, // Unleash: Rampage
 		"37": true, // Unleash: Beast Fury
-		"40": false, // CF
 	},
 	"4": { // Sorcerer
 		"enabled": true,
@@ -322,7 +321,7 @@ module.exports = {
 		// Awakening
 		"19": true, // Dark Harvest
 		"21": true, // Recall Scythes
-		"23": true, // Binding Scythes
+		"23": true, // Binding Scythes (untested)
 	},
 	"9": { // Gunner
 		"enabled": true,
@@ -385,7 +384,7 @@ module.exports = {
 		"4": true, // Jagged Path
 		"5": true, // Impact Bomb
 		"6": true, // One Thousand Cuts
-		"7": false, // Decoy jutsu
+		"7": true, // Decoy jutsu
 		"8": true, // Fire Avalanche
 		"9": true, // Smoke Bomb
 		"10": false, // Retaliate

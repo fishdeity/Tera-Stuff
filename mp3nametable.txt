@@ -1057,11 +1057,6 @@ rockrdg2.rsw#bgm\\172.mp3#
 
 // 생체던전 신규 전사자의 무덤
 lhz_dun_n.rsw#bgm\\124.mp3#
-lhz_d_n2.rsw#bgm\\124.mp3#
-
-// EDDA 생체연구소 - 원정의 여로
-1@gol1.rsw#bgm\\124.mp3#
-1@gol2.rsw#bgm\\124.mp3#
 
 // ep16.2 (추가 컨텐츠 안 넣었음)
 1@slw.rsw#bgm\\124.mp3#

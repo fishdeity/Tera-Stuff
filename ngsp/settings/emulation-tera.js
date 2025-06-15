@@ -102,7 +102,7 @@ module.exports = {
 		"14": true, // Distant Blade
 		"15": true, // Startling Kick
 		"16": true, // Fury Strike
-		"17": true, // Headlong Rush
+		"17": false, // Headlong Rush
 		"18": true, // Overpower
 		"19": true, // Tenacity
 		"20": true, // In Cold Blood
@@ -317,12 +317,12 @@ module.exports = {
 		"15": true, // Retribution
 		"16": true, // Shadow Reaping
 		"18": true, // Shrouded Escape
-		"20": true, // Cable Step
+		"20": false, // Cable Step
 		"40": true, // Shadow Step
 		// Awakening
 		"19": true, // Dark Harvest
 		"21": true, // Recall Scythes
-		"23": true, // Binding Scythes
+		"23": false, // Binding Scythes
 	},
 	"9": { // Gunner
 		"enabled": true,

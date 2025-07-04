@@ -56,18 +56,19 @@ module.exports = (dispatch, handlers, guide, lang) => {
 		],
 		"s-2809-1000-1304-0": [
 			{ type: "text", sub_type: "message", message: "Purge Aoe", message_RU: "" },
-			{ type: "text", sub_type: "notification", delay: 1000, message: "dodge", message_RU: "" }
+			{ type: "text", sub_type: "alert", delay: 400, message: "2", message_RU: "" },
+			{ type: "text", sub_type: "alert", delay: 1300, message: "1", message_RU: "" }
 		],
 
 		// Lifeform
 		"s-2809-1000-1309-0": [
-			{ type: "text", sub_type: "message", message: "Enraged=IN  Normal=OUT", message_RU: "" },
+			{ type: "text", sub_type: "message", message: "Enraged = IN Normal = OUT", message_RU: "" },
 			{ type: "spawn", func: "circle", args: [false, 553, 0, 0, 5, 275, 0, 5000] }
 		],
 
 		// donut mech unenraged
 		"s-2809-1000-1310-0": [
-			{ type: "text", sub_type: "message", message: "wave in 4", message_RU: "" , delay : 1000},
+			{ type: "text", sub_type: "message", message: "wave in 4", message_RU: "" , delay : 100},
 			{ type: "text", sub_type: "message", message: "wave in 3", message_RU: "" , delay : 2000},
 			{ type: "text", sub_type: "message", message: "wave in 2", message_RU: "" , delay : 3000},
 			{ type: "text", sub_type: "message", message: "wave in 1", message_RU: "" , delay : 4000},
@@ -77,7 +78,7 @@ module.exports = (dispatch, handlers, guide, lang) => {
 
 		// donut mech
 		"s-2809-1000-1311-0": [
-			{ type: "text", sub_type: "message", message: "wave in 4", message_RU: "" , delay : 1000},
+			{ type: "text", sub_type: "message", message: "wave in 4", message_RU: "" , delay : 100},
 			{ type: "text", sub_type: "message", message: "wave in 3", message_RU: "" , delay : 2000},
 			{ type: "text", sub_type: "message", message: "wave in 2", message_RU: "" , delay : 3000},
 			{ type: "text", sub_type: "message", message: "wave in 1", message_RU: "" , delay : 4000},

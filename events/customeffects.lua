@@ -592,6 +592,14 @@ customeffects = {
 	[1000261] = {EffectID = 1869}, -- Fragments of Condolence
 	[1000262] = {EffectID = 1869}, -- Fragment of Wishes
 	[1000405] = {EffectID = 1869}, -- Amethyst Fragment
+	[1002424] = {EffectID = 1190}, -- [S2] Low Grade Core Data
+    [1002425] = {EffectID = 1190}, -- [S2] Mid Grade Core Data
+    [1002426] = {EffectID = 1190}, -- [S2] High Grade Core Data
+	[1000608] = {EffectID = 1869}, -- Snow Flower Petal
+	[1000812] = {EffectID = 1869}, -- Snow Flower Magic Stone
+	[719] = {EffectID = 1869}, -- Amethyst
+	[720] = {EffectID = 1869}, -- Aquamarine
+	[728] = {EffectID = 1869}, -- Topaz
 
 	-- Rune materials
 	[969] = {EffectID = 1870}, -- Gold
